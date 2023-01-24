@@ -1,0 +1,33 @@
+body {
+  font-family: Helvetica;
+  background-color: #000730;
+  color: #fff;
+  max-width: 300px;
+  border: 5px solid white;
+  margin: 50 auto;
+  padding: 50px 60px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label, input, select, textarea {
+  display: block;
+}
+
+label {
+  padding: 5px 0;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.inline {
+  display: inline;
+}
+
+#submit {
+  margin: 0 auto;
+}

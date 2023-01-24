@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Your Type Survey</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <h1 id="title">Your Type Survey</h1>
+    <p id="description">
+      This is a survey to record your type in various typology systems.
+    </p>
+
+    <form id="survey-form">
+
+      <hr>
+
+      <label id="name-label" for="name">Your Name*:
+        <input id="name" type="text" placeholder="Cardamon" required>
+      </label>
+
+      <label id="email-label" for="email">Your Email*:
+        <input id="email" type="email" placeholder="cardamon@el.org" required>
+      </label>
+
+      <label id="number-label" for="number">Your Favorite Number:
+        <input id="number" type="number" min="-999" max="999" placeholder="-19">
+      </label>
+
+      <hr>
+
+      <label for="dropdown">MBTI:
+        <select id="dropdown">
+          <option></option>
+
+          <option>ISTJ</option>
+          <option>ESTJ</option>
+          <option>ISFJ</option>
+          <option>ESFJ</option>
+
+          <option></option>
+
+          <option>ISTP</option>
+          <option>ESTP</option>
+          <option>ISFP</option>
+          <option>ESFP</option>
+
+          <option></option>
+
+          <option>ENFP</option>
+          <option>INFP</option>
+          <option>ENTP</option>
+          <option>INTP</option>
+
+          <option></option>
+
+          <option>ENFJ</option>
+          <option>INFJ</option>
+          <option>ENTJ</option>
+          <option>INTJ</option>
+
+          <option></option>
+
+          <option>Don’t know</option>
+        </select>
+      </label>
+
+      <label for="enneagram">Enneagram:
+        <select id="enneagram">
+
+          <option></option>
+
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+
+        </select>
+      </label>
+
+      <label for="tritype">Tritype:
+        <input id="tritype" type="number" min="125" max="974">
+      </label>
+
+      <hr>
+
+      <label for="new-to-types">
+        <input id="new-to-types" class="types-experience inline" name="types-experience" value="new-to-types" type="radio">
+        New to Types
+      </label>
+
+      <label for="typology-expert">
+        <input id="typology-expert" class="types-experience inline" name="types-experience" value="new-to-types" type="radio">
+        Typology Expert
+      </label>
+
+      <hr>
+
+      <label for="promotions-consent">
+        <input id="promotions-consent" class="inline" value="promotions-consent" type="checkbox">
+        I would like to receive promotional emails
+      </label>
+
+      <label for="accept-terms">
+        <input id="accept-terms" class="inline" value="accept-terms" type="checkbox" required>
+        I accept the <a href="">terms and conditions</a>
+      </label>
+
+      <hr>
+
+      <label for="textarea">Additional Comments:
+        <textarea id="additional-comments" rows="3" cols="35" placeholder="I'm also..."></textarea>
+      </label>
+
+      <hr>
+
+      <label for="submit">
+        <input id="submit" type="submit">
+      </label>
+
+    </form>
+
+  </body>
+
+</html>
